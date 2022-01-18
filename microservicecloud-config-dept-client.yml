@@ -7,7 +7,7 @@ server:
   port: 8001
 
 mybatis:
-  type-aliases-package: com.cn.springcloud.entities
+  type-aliases-package: com.atguigu.springcloud.entities
   mapper-locations: classpath:mapper/**/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
@@ -49,7 +49,7 @@ server:
   port: 8001
 
 mybatis:
-  type-aliases-package: com.cn.springcloud.entities
+  type-aliases-package: com.atguigu.springcloud.entities
   mapper-locations: classpath:mapper/**/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
